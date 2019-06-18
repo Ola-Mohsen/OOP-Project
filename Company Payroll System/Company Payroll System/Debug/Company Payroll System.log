@@ -1,0 +1,227 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets(1964,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "Microsoft.VisualBasic.PowerPacks.Vs". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors.
+  AddWorker.cpp
+  DeleteWorker.cpp
+  DisplayWorkers.cpp
+  Employee.cpp
+Employee.cpp(26): warning C4305: 'argument': truncation from 'double' to 'float'
+Employee.cpp(32): warning C4305: 'argument': truncation from 'double' to 'float'
+Employee.cpp(38): warning C4305: 'argument': truncation from 'double' to 'float'
+Employee.cpp(44): warning C4305: 'argument': truncation from 'double' to 'float'
+Employee.cpp(59): error C2976: 'std::array': too few template arguments
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\include\utility(380): note: see declaration of 'std::array'
+Employee.cpp(59): error C3699: '^': cannot use this indirection on type 'std::array'
+  Employee.cpp(59): note: compiler replacing '^' with '*' to continue parsing
+Employee.cpp(60): error C2440: '=': cannot convert from 'cli::array<System::String ^,1> ^' to 'std::array *'
+Employee.cpp(63): error C2665: 'System::Convert::ToInt32': none of the 19 overloads could convert all the argument types
+  Employee.cpp(63): note: could be 'int System::Convert::ToInt32(System::DateTime)'
+  Employee.cpp(63): note: or       'int System::Convert::ToInt32(System::String ^)'
+  Employee.cpp(63): note: or       'int System::Convert::ToInt32(System::Decimal)'
+  Employee.cpp(63): note: or       'int System::Convert::ToInt32(double)'
+  Employee.cpp(63): note: or       'int System::Convert::ToInt32(float)'
+  Employee.cpp(63): note: or       'int System::Convert::ToInt32(unsigned __int64)'
+  Employee.cpp(63): note: or       'int System::Convert::ToInt32(__int64)'
+  Employee.cpp(63): note: or       'int System::Convert::ToInt32(int)'
+  Employee.cpp(63): note: or       'int System::Convert::ToInt32(unsigned int)'
+  Employee.cpp(63): note: or       'int System::Convert::ToInt32(unsigned short)'
+  Employee.cpp(63): note: or       'int System::Convert::ToInt32(short)'
+  Employee.cpp(63): note: or       'int System::Convert::ToInt32(unsigned char)'
+  Employee.cpp(63): note: or       'int System::Convert::ToInt32(signed char)'
+  Employee.cpp(63): note: or       'int System::Convert::ToInt32(wchar_t)'
+  Employee.cpp(63): note: or       'int System::Convert::ToInt32(bool)'
+  Employee.cpp(63): note: or       'int System::Convert::ToInt32(System::Object ^)'
+  Employee.cpp(63): note: while trying to match the argument list '(std::array)'
+Employee.cpp(63): error C2661: 'Employee::Employee': no overloaded function takes 3 arguments
+Employee.cpp(64): error C2664: 'void System::Collections::Generic::Dictionary<System::String ^,Employee ^>::Add(System::String ^,Employee ^)': cannot convert argument 1 from 'std::array' to 'System::String ^'
+  Employee.cpp(64): note: use of undefined type 'std::array'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\include\utility(380): note: see declaration of 'std::array'
+  Grade.cpp
+  Home.cpp
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(90): error C2039: 'PowerPacks': is not a member of 'Microsoft::VisualBasic'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(90): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(90): error C2039: 'ShapeContainer': is not a member of 'Microsoft::VisualBasic'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(90): error C2143: syntax error: missing ';' before '^'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(90): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(90): error C2238: unexpected token(s) preceding ';'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(91): error C2039: 'PowerPacks': is not a member of 'Microsoft::VisualBasic'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(91): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(91): error C2039: 'LineShape': is not a member of 'Microsoft::VisualBasic'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(91): error C2143: syntax error: missing ';' before '^'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(91): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(91): error C2238: unexpected token(s) preceding ';'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(92): error C2039: 'PowerPacks': is not a member of 'Microsoft::VisualBasic'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(92): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(92): error C2039: 'LineShape': is not a member of 'Microsoft::VisualBasic'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(92): error C2143: syntax error: missing ';' before '^'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(92): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(92): error C2238: unexpected token(s) preceding ';'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(93): error C2039: 'PowerPacks': is not a member of 'Microsoft::VisualBasic'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(93): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(93): error C2039: 'LineShape': is not a member of 'Microsoft::VisualBasic'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(93): error C2143: syntax error: missing ';' before '^'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(93): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(93): error C2238: unexpected token(s) preceding ';'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(154): error C2039: 'shapeContainer1': is not a member of 'CompanyPayrollSystem::Home'
+  d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(23): note: see declaration of 'CompanyPayrollSystem::Home'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(154): error C2039: 'PowerPacks': is not a member of 'Microsoft::VisualBasic'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(154): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(154): error C2039: 'ShapeContainer': is not a member of 'Microsoft::VisualBasic'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(154): error C2061: syntax error: identifier 'ShapeContainer'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(155): error C2039: 'lineShape3': is not a member of 'CompanyPayrollSystem::Home'
+  d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(23): note: see declaration of 'CompanyPayrollSystem::Home'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(155): error C2039: 'PowerPacks': is not a member of 'Microsoft::VisualBasic'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(155): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(155): error C2039: 'LineShape': is not a member of 'Microsoft::VisualBasic'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(155): error C2061: syntax error: identifier 'LineShape'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(156): error C2039: 'lineShape2': is not a member of 'CompanyPayrollSystem::Home'
+  d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(23): note: see declaration of 'CompanyPayrollSystem::Home'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(156): error C2039: 'PowerPacks': is not a member of 'Microsoft::VisualBasic'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(156): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(156): error C2039: 'LineShape': is not a member of 'Microsoft::VisualBasic'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(156): error C2061: syntax error: identifier 'LineShape'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(157): error C2039: 'lineShape1': is not a member of 'CompanyPayrollSystem::Home'
+  d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(23): note: see declaration of 'CompanyPayrollSystem::Home'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(157): error C2039: 'PowerPacks': is not a member of 'Microsoft::VisualBasic'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(157): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(157): error C2039: 'LineShape': is not a member of 'Microsoft::VisualBasic'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(157): error C2061: syntax error: identifier 'LineShape'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(407): error C2039: 'shapeContainer1': is not a member of 'CompanyPayrollSystem::Home'
+  d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(23): note: see declaration of 'CompanyPayrollSystem::Home'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(407): error C2227: left of '->Location' must point to class/struct/union/generic type
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(408): error C2039: 'shapeContainer1': is not a member of 'CompanyPayrollSystem::Home'
+  d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(23): note: see declaration of 'CompanyPayrollSystem::Home'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(408): error C2227: left of '->Margin' must point to class/struct/union/generic type
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(409): error C2039: 'shapeContainer1': is not a member of 'CompanyPayrollSystem::Home'
+  d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(23): note: see declaration of 'CompanyPayrollSystem::Home'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(409): error C2227: left of '->Name' must point to class/struct/union/generic type
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(410): error C2039: 'shapeContainer1': is not a member of 'CompanyPayrollSystem::Home'
+  d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(23): note: see declaration of 'CompanyPayrollSystem::Home'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(410): error C2227: left of '->Shapes' must point to class/struct/union/generic type
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(410): error C2227: left of '->AddRange' must point to class/struct/union/generic type
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(410): error C2039: 'PowerPacks': is not a member of 'Microsoft::VisualBasic'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(410): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(410): error C2039: 'Shape': is not a member of 'Microsoft::VisualBasic'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(410): error C2065: 'Shape': undeclared identifier
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(410): error C2059: syntax error: '>'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(410): error C2976: 'cli::array': too few template arguments
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(410): error C2039: 'lineShape3': is not a member of 'CompanyPayrollSystem::Home'
+  d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(23): note: see declaration of 'CompanyPayrollSystem::Home'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(411): error C2039: 'lineShape2': is not a member of 'CompanyPayrollSystem::Home'
+  d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(23): note: see declaration of 'CompanyPayrollSystem::Home'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(411): error C2039: 'lineShape1': is not a member of 'CompanyPayrollSystem::Home'
+  d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(23): note: see declaration of 'CompanyPayrollSystem::Home'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(411): error C3321: an initializer list is unexpected in this context
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(411): error C2662: 'cli::array<Type,dimension>::array(unsigned int)': cannot convert 'this' pointer from 'cli::array' to 'cli::array<Type,dimension> %'
+  d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(411): note: Reason: cannot convert from 'cli::array' to 'cli::array<Type,dimension>'
+  d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(411): note: Conversion requires a second user-defined-conversion operator or constructor
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(412): error C2039: 'shapeContainer1': is not a member of 'CompanyPayrollSystem::Home'
+  d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(23): note: see declaration of 'CompanyPayrollSystem::Home'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(412): error C2227: left of '->Size' must point to class/struct/union/generic type
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(413): error C2039: 'shapeContainer1': is not a member of 'CompanyPayrollSystem::Home'
+  d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(23): note: see declaration of 'CompanyPayrollSystem::Home'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(413): error C2227: left of '->TabIndex' must point to class/struct/union/generic type
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(414): error C2039: 'shapeContainer1': is not a member of 'CompanyPayrollSystem::Home'
+  d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(23): note: see declaration of 'CompanyPayrollSystem::Home'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(414): error C2227: left of '->TabStop' must point to class/struct/union/generic type
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(418): error C2039: 'lineShape3': is not a member of 'CompanyPayrollSystem::Home'
+  d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(23): note: see declaration of 'CompanyPayrollSystem::Home'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(418): error C2227: left of '->BorderColor' must point to class/struct/union/generic type
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(420): error C2039: 'lineShape3': is not a member of 'CompanyPayrollSystem::Home'
+  d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(23): note: see declaration of 'CompanyPayrollSystem::Home'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(420): error C2227: left of '->BorderWidth' must point to class/struct/union/generic type
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(421): error C2039: 'lineShape3': is not a member of 'CompanyPayrollSystem::Home'
+  d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(23): note: see declaration of 'CompanyPayrollSystem::Home'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(421): error C2227: left of '->Name' must point to class/struct/union/generic type
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(422): error C2039: 'lineShape3': is not a member of 'CompanyPayrollSystem::Home'
+  d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(23): note: see declaration of 'CompanyPayrollSystem::Home'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(422): error C2227: left of '->X1' must point to class/struct/union/generic type
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(423): error C2039: 'lineShape3': is not a member of 'CompanyPayrollSystem::Home'
+  d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(23): note: see declaration of 'CompanyPayrollSystem::Home'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(423): error C2227: left of '->X2' must point to class/struct/union/generic type
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(424): error C2039: 'lineShape3': is not a member of 'CompanyPayrollSystem::Home'
+  d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(23): note: see declaration of 'CompanyPayrollSystem::Home'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(424): error C2227: left of '->Y1' must point to class/struct/union/generic type
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(425): error C2039: 'lineShape3': is not a member of 'CompanyPayrollSystem::Home'
+  d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(23): note: see declaration of 'CompanyPayrollSystem::Home'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(425): error C2227: left of '->Y2' must point to class/struct/union/generic type
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(429): error C2039: 'lineShape2': is not a member of 'CompanyPayrollSystem::Home'
+  d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(23): note: see declaration of 'CompanyPayrollSystem::Home'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(429): error C2227: left of '->BorderColor' must point to class/struct/union/generic type
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(431): error C2039: 'lineShape2': is not a member of 'CompanyPayrollSystem::Home'
+  d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(23): note: see declaration of 'CompanyPayrollSystem::Home'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(431): error C2227: left of '->BorderWidth' must point to class/struct/union/generic type
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(432): error C2039: 'lineShape2': is not a member of 'CompanyPayrollSystem::Home'
+  d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(23): note: see declaration of 'CompanyPayrollSystem::Home'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(432): error C2227: left of '->Name' must point to class/struct/union/generic type
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(433): error C2039: 'lineShape2': is not a member of 'CompanyPayrollSystem::Home'
+  d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(23): note: see declaration of 'CompanyPayrollSystem::Home'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(433): error C2227: left of '->X1' must point to class/struct/union/generic type
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(434): error C2039: 'lineShape2': is not a member of 'CompanyPayrollSystem::Home'
+  d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(23): note: see declaration of 'CompanyPayrollSystem::Home'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(434): error C2227: left of '->X2' must point to class/struct/union/generic type
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(435): error C2039: 'lineShape2': is not a member of 'CompanyPayrollSystem::Home'
+  d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(23): note: see declaration of 'CompanyPayrollSystem::Home'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(435): error C2227: left of '->Y1' must point to class/struct/union/generic type
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(436): error C2039: 'lineShape2': is not a member of 'CompanyPayrollSystem::Home'
+  d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(23): note: see declaration of 'CompanyPayrollSystem::Home'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(436): error C2227: left of '->Y2' must point to class/struct/union/generic type
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(440): error C2039: 'lineShape1': is not a member of 'CompanyPayrollSystem::Home'
+  d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(23): note: see declaration of 'CompanyPayrollSystem::Home'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(440): error C2227: left of '->BorderColor' must point to class/struct/union/generic type
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(442): error C2039: 'lineShape1': is not a member of 'CompanyPayrollSystem::Home'
+  d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(23): note: see declaration of 'CompanyPayrollSystem::Home'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(442): error C2227: left of '->BorderWidth' must point to class/struct/union/generic type
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(443): error C2039: 'lineShape1': is not a member of 'CompanyPayrollSystem::Home'
+  d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(23): note: see declaration of 'CompanyPayrollSystem::Home'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(443): error C2227: left of '->Name' must point to class/struct/union/generic type
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(444): error C2039: 'lineShape1': is not a member of 'CompanyPayrollSystem::Home'
+  d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(23): note: see declaration of 'CompanyPayrollSystem::Home'
+d:\مذاكرة\سنه ثانيه التيرم الثانى\oop\project\company payroll system\company payroll system\Home.h(444): fatal error C1003: error count exceeds 100; stopping compilation
+  Trainee.cpp
+Trainee.cpp(33): error C2976: 'std::array': too few template arguments
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\include\utility(380): note: see declaration of 'std::array'
+Trainee.cpp(33): error C3699: '^': cannot use this indirection on type 'std::array'
+  Trainee.cpp(33): note: compiler replacing '^' with '*' to continue parsing
+Trainee.cpp(34): error C2440: '=': cannot convert from 'cli::array<System::String ^,1> ^' to 'std::array *'
+Trainee.cpp(38): error C2665: 'System::Convert::ToInt32': none of the 19 overloads could convert all the argument types
+  Trainee.cpp(38): note: could be 'int System::Convert::ToInt32(System::DateTime)'
+  Trainee.cpp(38): note: or       'int System::Convert::ToInt32(System::String ^)'
+  Trainee.cpp(38): note: or       'int System::Convert::ToInt32(System::Decimal)'
+  Trainee.cpp(38): note: or       'int System::Convert::ToInt32(double)'
+  Trainee.cpp(38): note: or       'int System::Convert::ToInt32(float)'
+  Trainee.cpp(38): note: or       'int System::Convert::ToInt32(unsigned __int64)'
+  Trainee.cpp(38): note: or       'int System::Convert::ToInt32(__int64)'
+  Trainee.cpp(38): note: or       'int System::Convert::ToInt32(int)'
+  Trainee.cpp(38): note: or       'int System::Convert::ToInt32(unsigned int)'
+  Trainee.cpp(38): note: or       'int System::Convert::ToInt32(unsigned short)'
+  Trainee.cpp(38): note: or       'int System::Convert::ToInt32(short)'
+  Trainee.cpp(38): note: or       'int System::Convert::ToInt32(unsigned char)'
+  Trainee.cpp(38): note: or       'int System::Convert::ToInt32(signed char)'
+  Trainee.cpp(38): note: or       'int System::Convert::ToInt32(wchar_t)'
+  Trainee.cpp(38): note: or       'int System::Convert::ToInt32(bool)'
+  Trainee.cpp(38): note: or       'int System::Convert::ToInt32(System::Object ^)'
+  Trainee.cpp(38): note: while trying to match the argument list '(std::array)'
+Trainee.cpp(38): error C2665: 'System::Convert::ToDouble': none of the 18 overloads could convert all the argument types
+  Trainee.cpp(38): note: could be 'double System::Convert::ToDouble(System::DateTime)'
+  Trainee.cpp(38): note: or       'double System::Convert::ToDouble(bool)'
+  Trainee.cpp(38): note: or       'double System::Convert::ToDouble(System::String ^)'
+  Trainee.cpp(38): note: or       'double System::Convert::ToDouble(System::Decimal)'
+  Trainee.cpp(38): note: or       'double System::Convert::ToDouble(double)'
+  Trainee.cpp(38): note: or       'double System::Convert::ToDouble(float)'
+  Trainee.cpp(38): note: or       'double System::Convert::ToDouble(unsigned __int64)'
+  Trainee.cpp(38): note: or       'double System::Convert::ToDouble(__int64)'
+  Trainee.cpp(38): note: or       'double System::Convert::ToDouble(unsigned int)'
+  Trainee.cpp(38): note: or       'double System::Convert::ToDouble(int)'
+  Trainee.cpp(38): note: or       'double System::Convert::ToDouble(unsigned short)'
+  Trainee.cpp(38): note: or       'double System::Convert::ToDouble(wchar_t)'
+  Trainee.cpp(38): note: or       'double System::Convert::ToDouble(short)'
+  Trainee.cpp(38): note: or       'double System::Convert::ToDouble(unsigned char)'
+  Trainee.cpp(38): note: or       'double System::Convert::ToDouble(signed char)'
+  Trainee.cpp(38): note: or       'double System::Convert::ToDouble(System::Object ^)'
+  Trainee.cpp(38): note: while trying to match the argument list '(std::array)'
+Trainee.cpp(38): error C2661: 'Trainee::Trainee': no overloaded function takes 4 arguments
+Trainee.cpp(39): error C2664: 'void System::Collections::Generic::Dictionary<System::String ^,Trainee ^>::Add(System::String ^,Trainee ^)': cannot convert argument 1 from 'std::array' to 'System::String ^'
+  Trainee.cpp(39): note: use of undefined type 'std::array'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\include\utility(380): note: see declaration of 'std::array'
+  UpdateWorker.cpp
+  Worker.cpp
+  Generating Code...
